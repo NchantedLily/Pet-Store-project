@@ -218,9 +218,9 @@ body{
   transform:scale(.5)
 }
   
-.card-body{
+.card{
   height:auto;
-  width:100px;
+  width:200px;
 }
 
    
