@@ -70,10 +70,10 @@ body{
   
   /* Submenus*/
   .navbar-menu .menu li ul {
-    background-color: #080808;
+    background-color:magenta;
     display: none;
     position: absolute;
-  }
+  } 
   
   /* List items de submenus */
   .navbar-menu .menu li ul li {
@@ -96,7 +96,7 @@ body{
   
   /* Bloque que tiene el boton para desplegar el mini menu */
   .navbar-mini-menu .menu-select {
-    color: #fff;
+    color:#fff;
     padding: 1rem 1.5rem;
   }
   
@@ -636,4 +636,19 @@ p {
 
 .noodles1{
   background-color:#686868;
+}
+
+
+
+#sushi{
+  background-color:#543c68;
+}
+
+.dropdown-menu{
+  background-color: #6d517b;
+} 
+
+
+.div-card ::after{
+  
 }
