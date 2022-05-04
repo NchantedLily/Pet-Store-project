@@ -649,6 +649,21 @@ p {
 } 
 
 
-.div-card ::after{
+.doritos{
+  text-align: center;
+  text-justify: center;
+  align-content: center;
+}
+
+.burrito{
+  display: grid;
+  grid-column-start: auto;
+  align-items: column;
   
 }
+
+.tofu{
+  display:grid;
+  justify
+}
+

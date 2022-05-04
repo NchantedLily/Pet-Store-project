@@ -1,100 +1,46 @@
-$(document).on("ready",function() {
-    // 0 = oculto, 1 = visible
-    var menuState = 0;
-    //if($(".mini-menu-options").is(":hidden")) {
-      /* Agrega un listener del evento Click a btn-select */
-      $(".btn-select").on("click",function() {
-        if(menuState === 0) {
-          $(".mini-menu-options").slideDown("slow");
-          menuState = 1;
-        } else {
-          $(".mini-menu-options").slideUp("slow");
-          menuState = 0;
-        }
-      });
-    //}
-    // Si el enlace actual (li) tiene mas de 1 hijo, es decir
-    // su enlace (a) y ademas un submenu (ul)
-    $(".mini-menu-options li").on("click", function() {
-      var numHijos = $(this).children().length;
-      if(numHijos < 2) {
-        // esconde el menu
-        $(".mini-menu-options").hide("fast");
-        // obtiene el texto del elemento elegido
-        var texto = $(this).text();
-        // y lo agrega a la barra del menu
-        $(".menu-select .menu-actual").text(texto);
-      }
-      menuState = 0; // reinicia la variable que controla el menu
-    });
-  });
-
-  /* Pokemon effect */
-
-  /*
-
-  using 
-    - an animated gif of sparkles.
-    - an animated gradient as a holo effect.
-    - color-dodge mix blend mode
+var dogShop = [
+  {
+    title: 'Dogs',
+    image: './dog11petstore.jpg',
+    price: '$2,000-$4,500',
+    description:'Panda'
+  },
   
-*/
-var x;
-var $cards = $(".card");
-var $style = $(".hover");
+  {
+    title: 'Dogs',
+    image: './dog12petstore.jpg',
+    price: '$3,000-$5,500',
+    description:'Thor'
+  },
+  {
+    title: 'Dogs',
+    image: './dog15petstore.jpg',
+    price: '$2,500-$4,500',
+    description:'Thor'
+  },
+  {
+    title: 'Dogs',
+    image: './dog18petstore.jpg',
+    price: '$4,000-$6,000',
+    description:'Thor'
+  },
+  
+  ]
+  
+  var dogHTML = " "
 
-$cards
-  .on("mousemove touchmove", function(e) { 
-    // normalise touch/mouse
-    var pos = [e.offsetX,e.offsetY];
-    e.preventDefault();
-    if ( e.type === "touchmove" ) {
-      pos = [ e.touches[0].clientX, e.touches[0].clientY ];
-    }
-    var $card = $(this);
-    // math for mouse position
-    var l = pos[0];
-    var t = pos[1];
-    var h = $card.height();
-    var w = $card.width();
-    var px = Math.abs(Math.floor(100 / w * l)-100);
-    var py = Math.abs(Math.floor(100 / h * t)-100);
-    var pa = (50-px)+(50-py);
-    // math for gradient / background positions
-    var lp = (50+(px - 50)/1.5);
-    var tp = (50+(py - 50)/1.5);
-    var px_spark = (50+(px - 50)/7);
-    var py_spark = (50+(py - 50)/7);
-    var p_opc = 20+(Math.abs(pa)*1.5);
-    var ty = ((tp - 50)/2) * -1;
-    var tx = ((lp - 50)/1.5) * .5;
-    // css to apply for active card
-    var grad_pos = `background-position: ${lp}% ${tp}%;`
-    var sprk_pos = `background-position: ${px_spark}% ${py_spark}%;`
-    var opc = `opacity: ${p_opc/100};`
-    var tf = `transform: rotateX(${ty}deg) rotateY(${tx}deg)`
-    // need to use a <style> tag for psuedo elements
-    var style = `
-      .card:hover:before { ${grad_pos} }  /* gradient */
-      .card:hover:after { ${sprk_pos} ${opc} }   /* sparkles */ 
-    `
-    // set / apply css class and style
-    $cards.removeClass("active");
-    $card.removeClass("animated");
-    $card.attr( "style", tf );
-    $style.html(style);
-    if ( e.type === "touchmove" ) {
-      return false; 
-    }
-    clearTimeout(x);
-  }).on("mouseout touchend touchcancel", function() {
-    // remove css, apply custom animation on end
-    var $card = $(this);
-    $style.html("");
-    $card.removeAttr("style");
-    x = setTimeout(function() {
-      $card.addClass("animated");
-    },2500);
-  });
 
-  /* End of pokemon effect */
+
+
+
+
+
+  for (var i=0; i < dogShop.length; i++){
+      var heading = '<div class="card ' + '"><h5>' + dogShop[i].title + '</h5>'
+      var image = '<img class="card-img-top" src="' + dogShop[i].image + '"/'
+      var price = '<p class="card-text"> $' + dogShop[i].price + '</p>'
+      var description = '<div class="card-body"><p>'+ dogShop[i].description;
+      var concatThis = heading + image + price + description;
+      dogHTML = dogHTML + concatThis
+  }
+  document.getElementById('dogMarket').innerHTML = dogHTML
