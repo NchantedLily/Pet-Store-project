@@ -38,9 +38,9 @@ var dogShop = [
 
   for (var i=0; i < dogShop.length; i++){
       var heading = '<div class="card dogs' + '" ><h5>' + dogShop[i].title + '</h5>'
-      var image = '<img class="card-img-top" src="' + dogShop[i].image + '"/'
+      var image = '<img class="card-img-top" src="' + dogShop[i].image + '"/ />'
       var price = '<p class="card-text"> $' + dogShop[i].price + '</p>'
-      var description = '<div class="card-body"><p>'+ dogShop[i].description;
+      var description = '<div class="card-body"><p>'+ dogShop[i].description + "</p></div></div>";
       var concatThis = heading + image + price + description;
       dogHTML = dogHTML + concatThis
   }
@@ -53,14 +53,14 @@ var dogShop = [
       title: 'Cats',
       image: './cat10petstore.jpg',
       price: '$2,000-$4,500',
-      description:'Panda'
+      description:'Max'
     },
     
     {
       title: 'Cats',
       image: './cat1petstore.jpg',
       price: '$3,000-$5,500',
-      description:'Thor'
+      description:'Waffles'
     },
     {
       title: 'Cats',
@@ -87,8 +87,8 @@ var dogShop = [
   
     for (var i=0; i < catShop.length; i++){
         var heading = '<div class="card ' + '"><h5>' + catShop[i].title + '</h5>'
-        var image = '<img class="card-img-top" src="' + catShop[i].image + '"/'
-        var price = '<p class="card-text"> $' + catShop[i].price + '</p>'
+        var image = '<img class="card-img-top" src="' + catShop[i].image + '"/ />'
+        var price = '<p class="card-text"> $' + catShop[i].price + "</p></div></div>";
         var description = '<div class="card-body"><p>'+ catShop[i].description;
         var concatThis = heading + image + price + description;
         catHTML = catHTML + concatThis
@@ -102,26 +102,26 @@ var dogShop = [
         title: 'Fish',
         image: './fish11petstore.jpg',
         price: '$2,000-$4,500',
-        description:'Panda'
+        description:'Nico'
       },
       
       {
         title: 'Fish',
         image: './fish5petstore.jpg',
         price: '$3,000-$5,500',
-        description:'Thor'
+        description:'Belle'
       },
       {
         title: 'Fish',
         image: './fish13petstore.jpg',
         price: '$2,500-$4,500',
-        description:'Skittles'
+        description:'Dot'
       },
       {
         title: 'Fish',
-        image: '/fish8petstore.jpg',
+        image: './fish8petstore.jpg',
         price: '$4,000-$6,000',
-        description:'Loki'
+        description:'Rukia'
       },
       
       ]
@@ -136,8 +136,8 @@ var dogShop = [
     
       for (var i=0; i < fishShop.length; i++){
           var heading = '<div class="card ' + '"><h5>' + fishShop[i].title + '</h5>'
-          var image = '<img class="card-img-top" src="' + fishShop[i].image + '"/'
-          var price = '<p class="card-text"> $' + fishShop[i].price + '</p>'
+          var image = '<img class="card-img-top" src="' + fishShop[i].image + '"/ />'
+          var price = '<p class="card-text"> $' + fishShop[i].price + "</p></div></div>";
           var description = '<div class="card-body"><p>'+ fishShop[i].description;
           var concatThis = heading + image + price + description;
           fishHTML = fishHTML + concatThis
