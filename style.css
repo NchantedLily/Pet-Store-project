@@ -664,6 +664,9 @@ p {
 
 .tofu{
   display:grid;
-  justify
+  
 }
 
+.dogs{
+  width: 25%;
+}

@@ -37,7 +37,7 @@ var dogShop = [
 
 
   for (var i=0; i < dogShop.length; i++){
-      var heading = '<div class="card ' + '"><h5>' + dogShop[i].title + '</h5>'
+      var heading = '<div class="card dogs' + '" ><h5>' + dogShop[i].title + '</h5>'
       var image = '<img class="card-img-top" src="' + dogShop[i].image + '"/'
       var price = '<p class="card-text"> $' + dogShop[i].price + '</p>'
       var description = '<div class="card-body"><p>'+ dogShop[i].description;
