@@ -3,54 +3,54 @@ var dogShop = [
   {
     title: 'Dogs',
     image: './dog13petstore.jpg',
-    price: '$2,000-$4,500',
-    description:'Panda'
+    price: '850-$1,500',
+    description:'Scooter'
   },
   
   {
     title: 'Dogs',
     image: './dog17petstore.jpg',
-    price: '$2,000-$4,500',
-    description:'Panda'
+    price: '1,500-$3,000',
+    description:'Renji'
   },
   
   {
     title: 'Dogs',
     image: './dog3petstore.jpg',
-    price: '$2,000-$4,500',
-    description:'Panda'
+    price: '1,200-$2,300',
+    description:'Hunter'
   },
   
   {
     title: 'Dogs',
     image: './dog6petsstore.jpg',
-    price: '$2,000-$4,500',
-    description:'Panda'
+    price: '2,000-$3,800',
+    description:'Chloe'
   },
   
   {
     title: 'Dogs',
     image: './dog11petstore.jpg',
-    price: '$2,000-$4,500',
+    price: '2,000-$4,500',
     description:'Panda'
   },
   
   {
     title: 'Dogs',
     image: './dog12petstore.jpg',
-    price: '$3,000-$5,500',
+    price: '3,000-$5,500',
     description:'Thor'
   },
   {
     title: 'Dogs',
     image: './dog15petstore.jpg',
-    price: '$2,500-$4,500',
+    price: '2,500-$4,500',
     description:'Skittles'
   },
   {
     title: 'Dogs',
     image: './dog18petstore.jpg',
-    price: '$4,000-$6,000',
+    price: '4,000-$6,000',
     description:'Loki'
   },
   
@@ -80,50 +80,50 @@ var dogShop = [
     {
       title: 'Cats',
       image: './cat13petstore.jpg',
-      price: '$2,000-$4,500',
-      description:'Max'
+      price: '1,400-$2,800',
+      description:'Deidara'
     },
     {
       title: 'Cats',
       image: './cat3petstore.jpg',
-      price: '$2,000-$4,500',
-      description:'Max'
+      price: '2,100-$3,300',
+      description:'Sasuke'
     },
     {
       title: 'Cats',
       image: './cat7petstore.jpg',
-      price: '$2,000-$4,500',
-      description:'Max'
+      price: '3,000-$4,000',
+      description:'Shiro'
     },
     {
       title: 'Cats',
       image: './cat9petstore.jpg',
-      price: '$2,000-$4,500',
-      description:'Max'
+      price: '2,500-$4,300',
+      description:'Anya'
     },
     {
       title: 'Cats',
       image: './cat10petstore.jpg',
-      price: '$2,000-$4,500',
+      price: '2,000-$4,500',
       description:'Max'
     },
     
     {
       title: 'Cats',
       image: './cat1petstore.jpg',
-      price: '$3,000-$5,500',
+      price: '3,000-$5,500',
       description:'Waffles'
     },
     {
       title: 'Cats',
       image: './cat16petstore.jpg',
-      price: '$2,500-$4,500',
+      price: '2,500-$4,500',
       description:'Skittles'
     },
     {
       title: 'Cats',
       image: './cat12petstore.jpg',
-      price: '$4,000-$6,000',
+      price: '4,000-$6,000',
       description:'Loki'
     },
     
@@ -153,54 +153,54 @@ var dogShop = [
       {
         title: 'Fish',
         image: './fish2petstore.jpg',
-        price: '$2,000-$4,500',
+        price: '350-$500',
         description:'Nico'
       },
       
       {
         title: 'Fish',
         image: './fish7petstore.jpg',
-        price: '$2,000-$4,500',
-        description:'Nico'
+        price: '400-$550',
+        description:'Armin'
       },
       
       {
         title: 'Fish',
         image: './fish6petstore.jpg',
-        price: '$2,000-$4,500',
-        description:'Nico'
+        price: '500-$800',
+        description:'Eren'
       },
       
       {
         title: 'Fish',
         image: './fish4petstore.jpg',
-        price: '$2,000-$4,500',
-        description:'Nico'
+        price: '600-$1,100',
+        description:'Pebbles'
       },
       
       {
         title: 'Fish',
         image: './fish11petstore.jpg',
-        price: '$2,000-$4,500',
-        description:'Nico'
+        price: '1,500-$2,100',
+        description:'Goku'
       },
       
       {
         title: 'Fish',
         image: './fish5petstore.jpg',
-        price: '$3,000-$5,500',
+        price: '3,000-$5,500',
         description:'Belle'
       },
       {
         title: 'Fish',
         image: './fish13petstore.jpg',
-        price: '$2,500-$4,500',
+        price: '2,500-$4,500',
         description:'Dot'
       },
       {
         title: 'Fish',
         image: './fish8petstore.jpg',
-        price: '$4,000-$6,000',
+        price: '4,000-$6,000',
         description:'Rukia'
       },
       
