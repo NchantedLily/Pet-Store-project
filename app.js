@@ -188,19 +188,19 @@ var dogShop = [
       {
         title: 'Fish',
         image: './fish5petstore.jpg',
-        price: '3,000-$5,500',
+        price: '1,800-$2,400',
         description:'Belle'
       },
       {
         title: 'Fish',
         image: './fish13petstore.jpg',
-        price: '2,500-$4,500',
+        price: '1,100-$2,500',
         description:'Dot'
       },
       {
         title: 'Fish',
         image: './fish8petstore.jpg',
-        price: '4,000-$6,000',
+        price: '2,400-$3,500',
         description:'Rukia'
       },
       
