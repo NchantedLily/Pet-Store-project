@@ -2,6 +2,34 @@
 var dogShop = [
   {
     title: 'Dogs',
+    image: './dog13petstore.jpg',
+    price: '$2,000-$4,500',
+    description:'Panda'
+  },
+  
+  {
+    title: 'Dogs',
+    image: './dog17petstore.jpg',
+    price: '$2,000-$4,500',
+    description:'Panda'
+  },
+  
+  {
+    title: 'Dogs',
+    image: './dog3petstore.jpg',
+    price: '$2,000-$4,500',
+    description:'Panda'
+  },
+  
+  {
+    title: 'Dogs',
+    image: './dog6petsstore.jpg',
+    price: '$2,000-$4,500',
+    description:'Panda'
+  },
+  
+  {
+    title: 'Dogs',
     image: './dog11petstore.jpg',
     price: '$2,000-$4,500',
     description:'Panda'
@@ -51,6 +79,30 @@ var dogShop = [
   var catShop = [
     {
       title: 'Cats',
+      image: './cat13petstore.jpg',
+      price: '$2,000-$4,500',
+      description:'Max'
+    },
+    {
+      title: 'Cats',
+      image: './cat3petstore.jpg',
+      price: '$2,000-$4,500',
+      description:'Max'
+    },
+    {
+      title: 'Cats',
+      image: './cat7petstore.jpg',
+      price: '$2,000-$4,500',
+      description:'Max'
+    },
+    {
+      title: 'Cats',
+      image: './cat9petstore.jpg',
+      price: '$2,000-$4,500',
+      description:'Max'
+    },
+    {
+      title: 'Cats',
       image: './cat10petstore.jpg',
       price: '$2,000-$4,500',
       description:'Max'
@@ -98,6 +150,34 @@ var dogShop = [
     //fish shop codes
 
     var fishShop = [
+      {
+        title: 'Fish',
+        image: './fish2petstore.jpg',
+        price: '$2,000-$4,500',
+        description:'Nico'
+      },
+      
+      {
+        title: 'Fish',
+        image: './fish7petstore.jpg',
+        price: '$2,000-$4,500',
+        description:'Nico'
+      },
+      
+      {
+        title: 'Fish',
+        image: './fish6petstore.jpg',
+        price: '$2,000-$4,500',
+        description:'Nico'
+      },
+      
+      {
+        title: 'Fish',
+        image: './fish4petstore.jpg',
+        price: '$2,000-$4,500',
+        description:'Nico'
+      },
+      
       {
         title: 'Fish',
         image: './fish11petstore.jpg',
