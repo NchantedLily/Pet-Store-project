@@ -2,6 +2,30 @@
 var dogShop = [
   {
     title: 'Dogs',
+    image: './dog14petstore.jpg',
+    price: '850-$1,500',
+    description:'Scooter'
+  },
+  {
+    title: 'Dogs',
+    image: './dog16petstore.jpg',
+    price: '850-$1,500',
+    description:'Scooter'
+  },
+  {
+    title: 'Dogs',
+    image: './dog19petstore.jpg',
+    price: '850-$1,500',
+    description:'Scooter'
+  },
+  {
+    title: 'Dogs',
+    image: './dog5petstore.jpg',
+    price: '850-$1,500',
+    description:'Scooter'
+  },
+  {
+    title: 'Dogs',
     image: './dog13petstore.jpg',
     price: '850-$1,500',
     description:'Scooter'
@@ -79,6 +103,30 @@ var dogShop = [
   var catShop = [
     {
       title: 'Cats',
+      image: './cat8petstore.jpg',
+      price: '1,400-$2,800',
+      description:'Deidara'
+    },
+    {
+      title: 'Cats',
+      image: './cat15petstore.jpg',
+      price: '1,400-$2,800',
+      description:'Deidara'
+    },
+    {
+      title: 'Cats',
+      image: './cat17petstore (1).jpg',
+      price: '1,400-$2,800',
+      description:'Deidara'
+    },
+    {
+      title: 'Cats',
+      image: './cat4petstore.jpg',
+      price: '1,400-$2,800',
+      description:'Deidara'
+    },
+    {
+      title: 'Cats',
       image: './cat13petstore.jpg',
       price: '1,400-$2,800',
       description:'Deidara'
@@ -140,8 +188,8 @@ var dogShop = [
     for (var i=0; i < catShop.length; i++){
         var heading = '<div class="card ' + '"><h5>' + catShop[i].title + '</h5>'
         var image = '<img class="card-img-top" src="' + catShop[i].image + '"/ />'
-        var price = '<p class="card-text"> $' + catShop[i].price + "</p></div></div>";
-        var description = '<div class="card-body"><p>'+ catShop[i].description;
+        var price = '<p class="card-text"> $' + catShop[i].price 
+        var description = '<div class="card-body"><p>'+ catShop[i].description + "</p></div></div>";
         var concatThis = heading + image + price + description;
         catHTML = catHTML + concatThis
     }
@@ -150,6 +198,30 @@ var dogShop = [
     //fish shop codes
 
     var fishShop = [
+      {
+        title: 'Fish',
+        image: './fish2petstore.jpg',
+        price: '350-$500',
+        description:'Nico'
+      },
+      {
+        title: 'Fish',
+        image: './fish2petstore.jpg',
+        price: '350-$500',
+        description:'Nico'
+      },
+      {
+        title: 'Fish',
+        image: './fish2petstore.jpg',
+        price: '350-$500',
+        description:'Nico'
+      },
+      {
+        title: 'Fish',
+        image: './fish2petstore.jpg',
+        price: '350-$500',
+        description:'Nico'
+      },
       {
         title: 'Fish',
         image: './fish2petstore.jpg',
@@ -209,16 +281,15 @@ var dogShop = [
       var fishHTML = " "
     
     
-    
-    
-    
-    
+
+
+
     
       for (var i=0; i < fishShop.length; i++){
           var heading = '<div class="card ' + '"><h5>' + fishShop[i].title + '</h5>'
           var image = '<img class="card-img-top" src="' + fishShop[i].image + '"/ />'
-          var price = '<p class="card-text"> $' + fishShop[i].price + "</p></div></div>";
-          var description = '<div class="card-body"><p>'+ fishShop[i].description;
+          var price = '<p class="card-text"> $' + fishShop[i].price 
+          var description = '<div class="card-body"><p>'+ fishShop[i].description + "</p></div></div>";
           var concatThis = heading + image + price + description;
           fishHTML = fishHTML + concatThis
       }
