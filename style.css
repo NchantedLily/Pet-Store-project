@@ -1273,11 +1273,10 @@ background-color: #6d517b;
 .doritos{
 
 text-align: center;
-
 text-justify: center;
-
 align-content: center;
-
+margin: 40px;
+font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -1300,9 +1299,9 @@ align-items: column;
 
 display:flex;
 align-content: flex-start;
+justify-content: left;
 background-color: #040712;
 font-family: 'Courier New', Courier, monospace;
-
 
 
 }
@@ -1342,14 +1341,18 @@ width: 25%;
   display:flex;
 }
 
+
+
 .chorizo{
   display: grid;
   grid-template-columns:70%;
   align-content: flex-end;
+  justify-content: right;
+  font-family: 'Courier New', Courier, monospace;
   
 }
 
-#two{
+/*#two{
   display: grid;
   align-self: flex-end;
   justify-content: right;
@@ -1357,9 +1360,9 @@ width: 25%;
 
 }
 
-#three{
+/*#three{
   display: grid;
-  align-content: center;
+  align-content: flex-start;
   justify-content: right;
   grid-template-columns: 50%;
 }
