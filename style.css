@@ -1298,7 +1298,10 @@ align-items: column;
 
 .tofu{
 
-display:grid;
+display:flex;
+align-content: flex-start;
+background-color: #040712;
+font-family: 'Courier New', Courier, monospace;
 
 
 
@@ -1325,4 +1328,11 @@ width: 25%;
 
 } */
 
-
+.nachos{
+  display:grid;
+  align-content: center;
+  justify-content: end;
+  grid-template-columns:30%;
+  grid-template-rows: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
