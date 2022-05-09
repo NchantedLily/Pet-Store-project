@@ -1351,6 +1351,10 @@ width: 25%;
   font-family: 'Courier New', Courier, monospace;
   
 }
+.guac{
+  display: grid;
+  grid-template-columns: 40%;
+}
 
 /*#two{
   display: grid;
@@ -1365,4 +1369,15 @@ width: 25%;
   align-content: flex-start;
   justify-content: right;
   grid-template-columns: 50%;
+}*/
+
+.pita{
+  display: flex;
+  align-content: flex-end;
+  justify-self: right;
+  flex-direction: column;
+  width: 60%;
+  font-size: 20px;
 }
+
+
