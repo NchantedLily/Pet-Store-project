@@ -1336,3 +1336,7 @@ width: 25%;
   grid-template-rows: auto;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.bbq{
+  width:250px;
+}
