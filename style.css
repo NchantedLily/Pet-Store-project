@@ -1332,11 +1332,14 @@ width: 25%;
   display:grid;
   align-content: center;
   justify-content: end;
-  grid-template-columns:30%;
+  grid-template-columns:100%;
   grid-template-rows: auto;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .bbq{
   width:250px;
+  display:flex;
+  
+
 }
