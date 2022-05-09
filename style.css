@@ -1340,6 +1340,26 @@ width: 25%;
 .bbq{
   width:250px;
   display:flex;
-  
+}
 
+.chorizo{
+  display: grid;
+  grid-template-columns:70%;
+  align-content: flex-end;
+  
+}
+
+#two{
+  display: grid;
+  align-self: flex-end;
+  justify-content: right;
+  grid-template-columns: 50%;
+
+}
+
+#three{
+  display: grid;
+  align-content: center;
+  justify-content: right;
+  grid-template-columns: 50%;
 }
