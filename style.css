@@ -1354,9 +1354,14 @@ width: 25%;
 }
 .guac{
   display: grid;
-  grid-template-columns: 40%;
+  grid-template-columns: 50%;
   align-items: flex-start;
 }
+.latte{
+  width: 1000px;
+  height: 600px;
+}
+
 
 /*#two{
   display: grid;
