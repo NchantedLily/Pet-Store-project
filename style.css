@@ -72,7 +72,7 @@ a {
 
 a:hover {
 
-  background-color: #CD5C5C;
+  background-color: #6c3296;
 
 }
 
@@ -1142,6 +1142,8 @@ h1 {
 display: block;
 
 margin: 30px 0;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
 }
 
@@ -1261,7 +1263,9 @@ background-color:#686868;
 #sushi{
 
 background-color:#b3b3e1;
-
+font-size:22px;
+font-weight:bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -1314,15 +1318,18 @@ width:300px;
 #dogMarket{
   display: flex;
   flex-wrap: wrap;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #catMarket{
   display:flex;
   flex-wrap: wrap;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 #fishMarket{
   display:flex;
   flex-wrap: wrap;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
