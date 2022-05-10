@@ -24,10 +24,10 @@ body, html {
 }
 
 body{
-  background-color: #1b1d46;
+  background-color: #211839;
 opacity: 0.8;
-background-image: linear-gradient(-45deg, #1b1d46, #1b1d46 50%, #BAA8CC 50%, #BAA8CC);
-background-size: 10px 10px;;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
 
 
