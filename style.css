@@ -20,10 +20,14 @@ body, html {
 
   font-family: segoe ui;
 
-  font-size: 100%;
 
-  height: 100%;
+}
 
+body{
+  background-color: #1b1d46;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #1b1d46, #1b1d46 50%, #BAA8CC 50%, #BAA8CC);
+background-size: 10px 10px;;
 }
 
 
@@ -1357,10 +1361,6 @@ width: 25%;
   grid-template-columns: 50%;
   align-items: flex-start;
 }
-.latte{
-  width: 1000px;
-  height: 600px;
-}
 
 
 /*#two{
@@ -1389,9 +1389,13 @@ width: 25%;
 }
 
 .snickers{
-  width: 350px;
+  width: 500px;
   display:flex;
   flex-wrap: wrap;
+  border-radius: 3px;
+  border-style: solid;
+  border-color:#444c6c;
+
 }
 
 
