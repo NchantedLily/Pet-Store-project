@@ -1491,7 +1491,7 @@ background-size: 9px 9px;
   background: #000;
 }
 
-.container-sm .container-md .container-lg .container-xl{
+ .container .container-sm .container-md .container-lg .container-xl{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #211839;
 opacity: 0.8;
