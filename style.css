@@ -85,8 +85,7 @@ a:hover {
 ****************************************************/
 
 /* Barra de navegacion (contiene al nav mini menu) */
-
-.navbar-menu {
+-menu {
 
   background-color: #000;
 
@@ -1286,7 +1285,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .dropdown-menu{
 
-background-color: #6d517b;
+background-color: #6c3296;
 
 }
 
