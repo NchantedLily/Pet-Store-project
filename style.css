@@ -20,7 +20,6 @@ body, html {
 
   font-family: segoe ui;
 
-
 }
 
 body{
@@ -28,6 +27,7 @@ body{
 opacity: 0.8;
 background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
 background-size: 9px 9px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -1319,18 +1319,31 @@ width:300px;
   display: flex;
   flex-wrap: wrap;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
 #catMarket{
   display:flex;
   flex-wrap: wrap;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
 #fishMarket{
   display:flex;
   flex-wrap: wrap;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
 
 /* .dogs{
@@ -1409,3 +1422,19 @@ width: 25%;
   color:#1b1d46;
 }
 
+banner{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:18px;
+}
+
+p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dash{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
+}
