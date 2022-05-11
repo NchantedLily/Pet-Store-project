@@ -1500,7 +1500,7 @@ background-size: 9px 9px;
 }
 
 
-.matcha{
+#matcha{
   background-color: #AFEF49;
 opacity: 0.8;
 background-image: linear-gradient(45deg, #22442B 50%, #AFEF49 50%);
