@@ -1321,6 +1321,8 @@ justify-content: left;
 background-color: #040712;
 font-family: 'Courier New', Courier, monospace;
 width:300px;
+z-index: 6;
+
 
 
 }
@@ -1506,4 +1508,5 @@ background-size: 9px 9px;
 opacity: 0.8;
 background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
 background-size: 10px 10px;
+z-index:1;
 }
