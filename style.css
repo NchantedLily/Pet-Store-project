@@ -1321,7 +1321,9 @@ justify-content: left;
 background-color: #040712;
 font-family: 'Courier New', Courier, monospace;
 width:300px;
-z-index: 6;
+z-index: 1000;
+position: relative;
+
 
 
 
