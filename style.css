@@ -1394,6 +1394,12 @@ width: 25%;
   display: grid;
   grid-template-columns: 50%;
   align-items: flex-start;
+
+  background-color: #7b392a;
+  opacity: 0.8;
+  background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
+  background-size: 10px 10px;
+  background-blend-mode:soft-light;
 }
 
 
@@ -1420,6 +1426,7 @@ width: 25%;
   width: 60%;
   font-size: 20px;
   margin-top: 20px;
+  padding:0;
 
   background-color: #7b392a;
 opacity: 0.8;
@@ -1468,11 +1475,11 @@ background-size: 9px 9px;
 }
 
 aside{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
+  background-color: #7b392a;
+  opacity: 0.8;
+  background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
+  background-size: 10px 10px;
+  background-blend-mode:soft-light;
 }
 
 h2{
@@ -1500,6 +1507,7 @@ background-size: 9px 9px;
 opacity: 0.8;
 background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
 background-size: 10px 10px;
+background-blend-mode:soft-light;
 }
 
 
