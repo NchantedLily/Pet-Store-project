@@ -1384,12 +1384,10 @@ width: 25%;
   align-content: flex-end;
   justify-content: right;
   font-family: 'Courier New', Courier, monospace;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
-  
+  background-color: #AFEF49;
+  opacity: 0.8;
+  background-image: linear-gradient(45deg, #22442B 50%, #AFEF49 50%);
+  background-size: 10px 10px;
 }
 .guac{
   display: grid;
@@ -1491,13 +1489,6 @@ background-size: 9px 9px;
   background: #000;
 }
 
- .container .container-sm .container-md .container-lg .container-xl{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px; 
-}
 
 
 #matcha{
