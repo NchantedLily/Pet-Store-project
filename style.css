@@ -1426,6 +1426,11 @@ width: 25%;
   width: 60%;
   font-size: 20px;
   margin-top: 20px;
+
+  background-color: #7b392a;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
+background-size: 10px 10px;
 }
 
 .snickers{
