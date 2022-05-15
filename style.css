@@ -105,7 +105,13 @@ a:hover {
   display: block;
 
   text-align: center;
+}
 
+.nav-link{
+  color:black;
+}
+.nav-item{
+  color:black;
 }
 
 
@@ -1473,7 +1479,10 @@ h2{
   background: #000;
 }
 
+.gum{
+  width:100px;
 
+}
 
 
 
