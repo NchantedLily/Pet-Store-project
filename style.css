@@ -118,6 +118,7 @@ a:hover {
 .navbar-menu .menu li {
 
   display: inline-block;
+  
 
 }
 
@@ -451,6 +452,14 @@ width: 200px;
 
 height:200px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
+margin:0;
+
 
 }
 
@@ -1367,7 +1376,14 @@ width: 25%;
   grid-template-columns:100%;
   grid-template-rows: auto;
   font-family: 'Courier New', Courier, monospace;
+  margin:0;
+
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
+
 
 .bbq{
   width:250px;
@@ -1383,13 +1399,19 @@ width: 25%;
   justify-content: right;
   font-family: 'Courier New', Courier, monospace;
 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #211839;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
+background-size: 9px 9px;
 }
-.basmati{
+/*.basmati{
   background-color: #AFEF49;
   opacity: 0.8;
   background-image: linear-gradient(45deg, #22442B 50%, #AFEF49 50%);
   background-size: 10px 10px;
-}
+  background-blend-mode:soft-light;
+}*/
 .guac{
   display: grid;
   grid-template-columns: 50%;
@@ -1438,9 +1460,10 @@ background-size: 10px 10px;
   width: 500px;
   display:flex;
   flex-wrap: wrap;
-  border-radius: 3px;
+  border-radius: 5px;
   border-style: solid;
   border-color:#444c6c;
+  border-width: 8px;
 
 }
 

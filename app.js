@@ -3,26 +3,26 @@ var dogShop = [
   {
     title: 'Dogs',
     image: './dog14petstore.jpg',
-    price: '850-$1,500',
-    description:'Scooter'
+    price: '1,100-$1,500',
+    description:'Edward'
   },
   {
     title: 'Dogs',
     image: './dog16petstore.jpg',
-    price: '850-$1,500',
-    description:'Scooter'
+    price: '3,000-$4,500',
+    description:'Bruno'
   },
   {
     title: 'Dogs',
     image: './dog19petstore.jpg',
-    price: '850-$1,500',
-    description:'Scooter'
+    price: '1,500-$2,500',
+    description:'Hikaru'
   },
   {
     title: 'Dogs',
     image: './dog5petstore.jpg',
-    price: '850-$1,500',
-    description:'Scooter'
+    price: '1,500-$2,500',
+    description:'Kaoru'
   },
   {
     title: 'Dogs',
@@ -104,26 +104,26 @@ var dogShop = [
     {
       title: 'Cats',
       image: './cat8petstore.jpg',
-      price: '1,400-$2,800',
-      description:'Deidara'
+      price: '1,000-$2,800',
+      description:'Neko'
     },
     {
       title: 'Cats',
       image: './cat15petstore.jpg',
-      price: '1,400-$2,800',
-      description:'Deidara'
+      price: '2,000-$2,300',
+      description:'Chise'
     },
     {
       title: 'Cats',
       image: './cat17petstore (1).jpg',
-      price: '1,400-$2,800',
-      description:'Deidara'
+      price: '1,500-$2,500',
+      description:'Mirabel'
     },
     {
       title: 'Cats',
       image: './cat4petstore.jpg',
-      price: '1,400-$2,800',
-      description:'Deidara'
+      price: '2,500-$4,500',
+      description:'Tsuna'
     },
     {
       title: 'Cats',
@@ -166,7 +166,7 @@ var dogShop = [
       title: 'Cats',
       image: './cat16petstore.jpg',
       price: '2,500-$4,500',
-      description:'Skittles'
+      description:'Snickers'
     },
     {
       title: 'Cats',
@@ -200,27 +200,27 @@ var dogShop = [
     var fishShop = [
       {
         title: 'Fish',
-        image: './fish2petstore.jpg',
-        price: '350-$500',
-        description:'Nico'
+        image: './fish10petstore.jpg',
+        price: '450-$600',
+        description:'Apollo'
       },
       {
         title: 'Fish',
-        image: './fish2petstore.jpg',
-        price: '350-$500',
-        description:'Nico'
+        image: './fish3petstore.jpg',
+        price: '200-$300',
+        description:'Gus'
       },
       {
         title: 'Fish',
-        image: './fish2petstore.jpg',
-        price: '350-$500',
-        description:'Nico'
+        image: './fish9petstore.jpg',
+        price: '375-$550',
+        description:'Props'
       },
       {
         title: 'Fish',
-        image: './fish2petstore.jpg',
-        price: '350-$500',
-        description:'Nico'
+        image: './fish1petstore.jpg',
+        price: '350-$425',
+        description:'Render'
       },
       {
         title: 'Fish',
