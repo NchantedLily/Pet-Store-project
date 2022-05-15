@@ -1360,10 +1360,7 @@ width: 25%;
   font-family: 'Courier New', Courier, monospace;
   margin:0;
 
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
+  
 }
 
 
@@ -1382,10 +1379,7 @@ background-size: 9px 9px;
   font-family: 'Courier New', Courier, monospace;
 
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
+  
 }
 /*.basmati{
   background-color: #AFEF49;
@@ -1398,12 +1392,7 @@ background-size: 9px 9px;
   display: grid;
   grid-template-columns: 50%;
   align-items: flex-start;
-
-  background-color: #7b392a;
-  opacity: 0.8;
-  background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
-  background-size: 10px 10px;
-  background-blend-mode:soft-light;
+  
 }
 
 
@@ -1431,11 +1420,7 @@ background-size: 9px 9px;
   font-size: 20px;
   margin-top: 20px;
   padding:0;
-
-  background-color: #7b392a;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
-background-size: 10px 10px;
+  
 }
 
 .snickers{
@@ -1464,55 +1449,31 @@ p{
 
 .dash{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
+  
 }
 
 p{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
 
 }
 
-aside{
-  background-color: #7b392a;
-  opacity: 0.8;
-  background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
-  background-size: 10px 10px;
-  background-blend-mode:soft-light;
-}
+
 
 h2{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px;
+ 
 }
 
 .apples{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #211839;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #211839, #211839 50%, #3f2668 50%, #3f2668);
-background-size: 9px 9px; 
+ 
 }
 
 .card-text{
   background: #000;
 }
 
-.ziti{
-  background-color: #7b392a;
-opacity: 0.8;
-background-image: linear-gradient(-45deg, #7b392a, #7b392a 50%, #f18b2c 50%, #f18b2c);
-background-size: 10px 10px;
-background-blend-mode:soft-light;
-}
+
+
 
 
