@@ -1402,6 +1402,7 @@ width: 25%;
   display: grid;
   grid-template-columns: 70%;
   align-items: flex-start;
+  color:#b3b3e1;
   
 }
 
@@ -1437,7 +1438,7 @@ width: 25%;
   font-size: 20px;
   margin-top: 20px;
   padding:0;
-  
+  color:#b3b3e1;
 }
 
 .snickers{
