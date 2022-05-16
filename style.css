@@ -1469,9 +1469,13 @@ p{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-display: stretch;
+  color:#b3b3e1;
   
 }
 
+.bourbon{
+
+}
 p{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
