@@ -1469,12 +1469,12 @@ p{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-display: stretch;
-  color:#b3b3e1;
+  color:#b3b3e1; 
   
 }
 
 .bourbon{
-
+ color:white;
 }
 p{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1507,3 +1507,81 @@ display: flex;
 
 }
 
+/* Media queries for Contact page */
+@media (max-width: 912px) { 
+  .guac{
+    grid-template-columns: 100%;
+  }
+  iframe{
+    width:700px;
+    margin-top: 10px;
+    align-content: center;
+  }
+
+  @media (max-width: 768px){
+    iframe{
+      width:600px;
+      margin-top: 10px;
+    align-content: center;
+    }
+  }
+
+  @media (max-width: 540px){
+    iframe{
+      width:400px;
+      margin-top: 10px;
+    align-content: center;
+    }
+    h3{
+     font-size:20px;
+    }
+    article{
+      font-size:18px;
+    }
+    .guac{
+      grid-template-columns: 80%;
+    }
+  }
+
+  @media (max-width: 412px){
+    iframe{
+      width:300px;
+      margin-top: 10px;
+    align-content: center;
+    }
+    address{
+      font-size: 16px;
+      
+    }
+    .guac{
+      grid-template-columns: 85%;
+    }
+    article{
+      font-size:18px;
+      align-content: center;
+    }
+  }
+
+  @media (max-width: 360px){
+    iframe{
+      width: fit-content;
+      align-content: center;
+    }
+    .guac{
+      grid-template-columns: 50%;
+    }
+    article{
+      font-size:18px;
+      align-content: center;
+      width:65vh;
+    }
+    h3{
+      font-size:18px;
+    
+  }
+}
+
+
+
+
+/* End of Media queries for Contact page */
