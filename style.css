@@ -1373,6 +1373,10 @@ width: 25%;
 .bbq{
   width:250px;
   display:flex;
+  border-style: solid;
+  border-radius: .3rem;
+  border-width: .4rem;
+  border-color: #3f2668;
 }
 
 
@@ -1484,5 +1488,12 @@ h2{
 
 }
 
+.text-center{
+display: flex;
 
+}
 
+.cheese{
+  display: grid;
+  
+}
