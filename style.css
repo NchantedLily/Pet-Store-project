@@ -70,6 +70,7 @@ a {
 a:hover {
 
   background-color: #6c3296;
+  color:white;
 
 }
 
@@ -107,12 +108,16 @@ a:hover {
   text-align: center;
 }
 
-.nav-link{
+/*.nav-link{
   color:black;
-}
+}*/
 .nav-item{
   color:black;
 }
+
+/*.navbar-brand{
+  color: black;
+}*/
 
 
 
