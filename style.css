@@ -1506,6 +1506,12 @@ h2{
 display: flex;
 
 }
+input[type="text"] {
+  width:570px;
+  align-content: center;
+}
+
+
 
 /* Media queries for Contact page */
 @media (max-width: 912px) { 
@@ -1551,6 +1557,7 @@ display: flex;
     }
     address{
       font-size: 16px;
+      font-stretch: expanded;
       
     }
     .guac{
