@@ -1441,6 +1441,11 @@ width: 25%;
   grid-template-columns: 50%;
 }*/
 
+.cinnabun{
+  color:white;
+}
+
+
 .pita{
   display: flex;
   align-content: flex-end;
@@ -1464,9 +1469,9 @@ width: 25%;
 
 }
 
-.mochi{
+/*.mochi{
   color:#1b1d46;
-}
+}*/
 
 banner{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
