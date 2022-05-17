@@ -1507,10 +1507,18 @@ display: flex;
 
 }
 input[type="text"]{
-  width: 607px;
+  width: 407px;
   align-content: center;
 }
 
+.form-control{
+  width:80%;
+  margin: auto;
+}
+
+#TextBox1{
+  width:210px;
+}
 
 
 /* Media queries for Contact page */
@@ -1532,7 +1540,7 @@ input[type="text"]{
 }
 @media (max-width: 1024px){
   input[type="text"]{
-    width:479px;
+    width:80vw;
     align-content: center;
 }
 
