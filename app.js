@@ -74,7 +74,7 @@ var dogShop = [
   {
     title: 'Dogs',
     image: './dog18petstore.jpg',
-    price: '4,000-$6,000',
+    price: '2,000-$4,500',
     description:'Loki'
   },
   
