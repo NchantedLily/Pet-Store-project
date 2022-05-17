@@ -56,14 +56,14 @@ var dogShop = [
     title: 'Dogs',
     image: './dog11petstore.jpg',
     price: '2,000-$4,500',
-    description:'Panda'
+    description:'Thor'
   },
   
   {
     title: 'Dogs',
     image: './dog12petstore.jpg',
     price: '3,000-$5,500',
-    description:'Thor'
+    description:'Panda'
   },
   {
     title: 'Dogs',
