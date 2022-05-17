@@ -1506,8 +1506,8 @@ h2{
 display: flex;
 
 }
-input[type="text"] {
-  width:570px;
+input[type="text"]{
+  width: 607px;
   align-content: center;
 }
 
