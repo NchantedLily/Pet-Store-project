@@ -294,3 +294,8 @@ var dogShop = [
           fishHTML = fishHTML + concatThis
       }
       document.getElementById('fishMarket').innerHTML = fishHTML
+
+
+
+
+    

@@ -1564,6 +1564,11 @@ display: flex;
 }
 
 }*/
+
+
+
+
+
 @media (max-width: 1024px){
   input[type="text"]{
     width:80vw;
